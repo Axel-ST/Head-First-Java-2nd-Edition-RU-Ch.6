@@ -4,6 +4,8 @@
  * Head First Java, 2nd Edition (RU) p. 180
  */
 
+package DotComGame;
+
 import java.util.ArrayList;
 
 public class DotCom {

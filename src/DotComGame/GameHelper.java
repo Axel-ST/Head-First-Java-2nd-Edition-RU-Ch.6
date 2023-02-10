@@ -4,6 +4,8 @@
  * Head First Java, 2nd Edition (RU) p. 182
  */
 
+package DotComGame;
+
 public class GameHelper {
 
 }
