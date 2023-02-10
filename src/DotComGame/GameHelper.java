@@ -28,7 +28,7 @@ public class GameHelper {
         } catch (IOException e) {
             System.out.println("IOException: " + e);
         }
-        if (inputLine != null){
+        if (inputLine != null) {
             return inputLine.toLowerCase();
         } else {
             return null;
@@ -51,7 +51,7 @@ public class GameHelper {
         
         while (!success & attempts++ < 200) { // main search loop
             location = (int) (Math.random() * gridSize); // get random starting point
-            //System.out.println(" try " + location);
+            // System.out.println(" try " + location);
             int x = 0; // n-th position in dot com to place
             success = true; //assume success
             while (success && x < comSize) { // look for adjacent unused spot
