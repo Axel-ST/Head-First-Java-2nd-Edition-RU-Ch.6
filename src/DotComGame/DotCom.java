@@ -9,10 +9,16 @@ package DotComGame;
 import java.util.ArrayList;
 
 public class DotCom {
+    //declare and initialize the variables
     private ArrayList <String> locationCells; // list keep location cell position
+    private String name;
     
+    //declare variables setters
     public void setLocationCells(ArrayList <String> loc) {
         locationCells = loc;
+    }
+    public void setName(String n) {
+        name = n;
     }
     
     public String checkYourself(String userInput) {
